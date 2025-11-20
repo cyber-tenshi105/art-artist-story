@@ -1,5 +1,10 @@
 // 后端 API
-const API_URL = "https://github.com/cyber-tenshi105/art-artist-story"; 
+const response = await fetch("https://art-artist-story.onrender.com", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+});
+
 
 // 显示自定义栏逻辑
 function toggleCustom(selectEl, customEl) {

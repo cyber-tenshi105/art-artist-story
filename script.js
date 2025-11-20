@@ -1,8 +1,5 @@
 // 后端 API
-const response = await fetch("https://art-artist-story.onrender.com", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(data)
+const API_URL = "https://github.com/cyber-tenshi105/art-artist-story"; 
 });
 
 
